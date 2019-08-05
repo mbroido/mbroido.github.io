@@ -1,0 +1,331 @@
+:root{
+  --primary:black;
+  --secondary:white;
+  --tertiary:rgb(20, 20, 20);
+  --tertiary-vals:20, 20, 20;
+  /* --tertiary:rgb(115, 40, 156);
+  --tertiary-vals:115, 40, 156; */
+  /* --primary:white;
+  --secondary:black;
+  --tertiary:white;
+  --tertiary-vals:255, 255, 255; */
+}
+
+
+.bold{
+  font-weight: 700;
+}
+
+.rounded-box{
+  border-radius:8px;
+
+}
+
+.rounded-box:hover{
+  color:black !important;
+}
+
+.hrbar{
+  border: 0;
+  height: 1px;
+  background: white;
+  background-image: linear-gradient(to right,white, white, white);
+}
+
+#secondvid{
+  width:72%;
+}
+
+.textme{
+  text-align: center;
+  border-left:1px solid grey;
+}
+
+.submit-arrow{
+  border:2px solid white;
+  font-size: 2em;
+  line-height: 7.0rem;
+  border:2px solid white;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+
+}
+
+.full-screen{
+  min-height: 100%;
+}
+
+.big-bullets{
+  text-align: left;
+  font-size:2em;
+  margin:5%;
+}
+
+.mo-city-text{
+  margin-top:20px;
+  font-size:35px;
+  text-align: center;
+}
+
+.blockquote-left{
+  /* border-left: 0.20em solid rgba(50,50,50,0.4); */
+  border-left: 0.20em solid rgba(255,255,255,0.9);
+
+  padding:10px;
+  margin:10px;
+}
+
+.blockquote-right{
+  /* border-right: 0.20em solid  rgba(50,50,50,0.4); */
+  border-right: 0.20em solid rgba(255,255,255,0.9);
+
+  padding:10px;
+  margin:10px;
+}
+
+#myVideo {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-radius:5px;
+}
+
+.video{
+  width:90%;
+  margin-left: 5%;
+}
+
+/* Founding a company used to mean filing K1s, 83(b)s, , figuring out what you don't know or might've missed. Mo has changed what it means to be a founder.  */
+
+.head{
+  height:100%;
+  background:white;
+}
+
+.link-city{
+  color: var(--tertiary) !important;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+h3{
+  font-family:'Montserrat', serif;
+}
+
+.footer{
+  color:var(--secondary);
+  background-color:var(--primary);
+  padding-bottom:50px;
+}
+
+.theme{
+  /* background:var(--tertiary); */
+  color:var(--primary) !important;
+}
+
+.theme-mid{
+   background-image: url("../img/mountains_blur.png");
+  /*background: linear-gradient(to bottom right, rgb(102, 102, 102), rgb(0, 0, 0)) !important; */
+
+  /* background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("img/mountains.jpg"); */
+  /* background: linear-gradient(to bottom right, rgb(102, 102, 102), rgb(0, 0, 0)), url("img/mountains.jpg"); */
+
+  /* Set a specific height */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color:white;
+
+}
+
+.theme-flipped{
+  /* background:linear-gradient(to bottom right, rgb(102, 102, 102), rgb(0, 0, 0)) !important; */
+  background:black;
+  /* background:linear-gradient(to bottom right, rgb(0, 0, 0), rgb(20, 20, 20)) !important; */
+  /* background:linear-gradient(to bottom, rgb(60, 60, 60), rgb(0, 0, 0), rgb(0, 0, 0), rgb(10, 10, 10)) !important; */
+
+  color:var(--secondary) !important;
+  height:100%;
+}
+
+.input-theme{
+  color:rgba(var(--tertiary-vals), 0.9);
+}
+
+.input-theme-inverse{
+  background:transparent;
+  width:70%;
+  border:1px;
+  color:var(--secondary);
+  outline: none;
+  border-bottom:1px solid rgba(var(--secondary), 0.5);
+  margin-bottom:80px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.input-theme-inverse:focus{
+  border-bottom:2px solid rgba(var(--secondary), 0.5);
+}
+
+.mo-title{
+  padding-top:5%;
+  font-size:45px;
+
+}
+
+.mo-text{
+  padding:15px;
+  margin-left:10%;
+  font-size:25px;
+  width:80%;
+}
+
+.mo-text-2{
+  padding:5px;
+  font-size:25px;
+  text-align:left;
+}
+
+.info-data{
+  margin-top:5%;
+}
+
+hr{
+  border: 0;
+  margin:10px;
+  margin-top:30px;
+  width:100%;
+  margin-left:10%;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(50, 50, 50, 0.75), rgba(0, 0, 0, 0));
+  /* background-color:rgba(50,50,50, 0.5); */
+}
+
+.mo{
+  font-weight: 300;
+  padding-top:5%;
+  font-size: 60px;
+  margin-top:12%;
+  padding-top:2.44em;
+}
+
+.section2{
+  width:100%;
+  height:100%;
+  color:rgb(115, 40, 156);
+  background:rgb(255, 255, 255);
+}
+
+.top{
+  display: block;
+  position: absolute;
+  background:transparent;
+  text-align: right;
+  margin-left:87.8%;
+  margin-top:3.1px;
+  font-family:'Montserrat', serif;
+}
+
+.arrow-container {
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateZ(0deg);
+}
+.arrow-container:hover {
+  cursor: pointer;
+}
+.arrow-container:hover .arrow {
+  top: 50%;
+}
+.arrow-container:hover .arrow:before {
+  transform: translate(-50%, -50%) rotateZ(-30deg);
+}
+.arrow-container:hover .arrow:after {
+  transform: translate(-50%, -50%) rotateZ(30deg);
+}
+
+.arrow {
+  position: absolute;
+  left: 50%;
+  transition: all .4s ease;
+}
+.arrow:before, .arrow:after {
+  transition: all .4s ease;
+  content: '';
+  display: block;
+  position: absolute;
+  transform-origin: bottom right;
+  background: var(--secondary);
+  width: 4px;
+  height: 50px;
+  border-radius: 10px;
+  transform: translate(-50%, -50%) rotateZ(-45deg);
+}
+.arrow:after {
+  transform-origin: bottom left;
+  transform: translate(-50%, -50%) rotateZ(45deg);
+}
+.arrow:nth-child(1) {
+  opacity: 0.3;
+  top: 35%;
+}
+.arrow:nth-child(2) {
+  opacity: 0.6;
+  top: 55%;
+}
+.arrow:nth-child(3) {
+  opacity: 0.9;
+  top: 75%;
+}
+
+
+
+
+
+
+
+
+
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}

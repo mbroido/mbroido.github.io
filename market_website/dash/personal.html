@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Mo</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content" >
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+
+          <a href="../index.html" style="text-decoration: none; color:grey;"><h2 class="title" style="margin-top:8px;">Mo</h2></a>
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+            <li class="nav-item dropdown no-arrow d-sm-none">
+              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-search fa-fw"></i>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                <form class="form-inline mr-auto w-100 navbar-search">
+                  <div class="input-group">
+                    <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button">
+                        <i class="fas fa-search fa-sm"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+
+
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link nav-button" href="index.html" role="button">
+                Business
+              </a>
+            </li>
+
+
+            <div class="topbar-divider d-none d-sm-block"></div>
+
+
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link nav-button" href="personal.html" role="button" style="font-weight:600; color:rgb(140, 140, 140)">
+                Personal
+              </a>
+            </li>
+
+
+            <div class="topbar-divider d-none d-sm-block"></div>
+
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-upload fa-fw"></i>
+                <!-- Counter - Messages -->
+              </a>
+
+            </li>
+
+
+            <div class="topbar-divider d-none d-sm-block"></div>
+
+            <!-- Nav Item - User Information -->
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="mr-2 d-none d-lg-inline text-gray-600 medium">Cory Levy</span>
+                <!-- <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60"> -->
+              </a>
+              <!-- Dropdown - User Information -->
+              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Settings
+                </a>
+                <a class="dropdown-item" href="billing.html">
+                  <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Billing
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Logout
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-8">
+            <div class="row">
+              <h3>Checklist <span class="badge badge-danger badge-counter">1</span></h3>
+            </div>
+
+
+            <div sytle="height:100px;">
+
+              <table class="table table-hover" style="margin-top:10px;">
+                <thead>
+                  <tr>
+                    <th colspan="2" scope = "col">File</th>
+                    <th colspan="1" scope = "col">Compliance</th>
+                    <th colspan="1" scope = "col">Efficiency</th>
+                    <th colspan="1" scope = "col"></th>
+                  </tr>
+                </thead>
+                <tbody style="overflow-y: auto;">
+
+                  <tr>
+                    <td colspan="2">Tax / Equity / File 83(b) </td>
+                    <td class="text-center">X </td>
+                    <td> </td>
+                    <td> <a href="#" class="btn mo-solve"> Solve </a> </td>
+                  </tr>
+
+
+
+                </tbody>
+
+                <!-- <tfoot>
+                  <tr>
+                    <td colspan="5" class="text-right"> <button class="btn mo-solve-bg"> Solve Everything </button> </td>
+                  </tr>
+                </tfoot> -->
+              </table>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="row text-center" style="margin-left:31%;">
+              <h3 class="text-center"><span class="text-left compliance-score" data-toggle="tooltip" data-placement="top" title="Compliance Score">98</span> <span class="text-right efficiency-score"  data-toggle="tooltip" data-placement="top" title="Efficiency Score"> 74 </span></h3>
+            </div>
+            <br>
+            <div class="chart-pie pt-4">
+              <canvas id="myPieChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+          <hr>
+
+          <!-- TO DO -->
+          <h3 style="">To-Do <span class="badge badge-danger badge-counter">1</span> </h3>
+          <div class="row">
+
+            <div class="col-xl-3 col-md-6 mb-4" id="read" onclick="fafcity('#read')" >
+              <div class="card unread-card unread-card-primary" data-toggle="modal" data-target=".bd-example-modal-xl" style="cursor: pointer;">
+                <div class="card-body ">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col-1">
+                      <div class="small-circle"></div>
+                    </div>
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1 unread-text" id="category">Tax</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800 unread-text" id="title">File 83(b) </div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-200" style="font-size:0.8em;"><span class=" mini-box"  style="color:#f73e69;">!!</span> <i class="fas fa-briefcase fa-2x text-gray-400 mini-box" style="font-size:1.3em; padding-bottom:8px;"> </i> <i class="text-gray-400 mini-box">~3m </i> </div>
+                    </div>
+
+                    <a href="#"><div class="col-auto">
+                      <i class="fas fa-arrow-right fa-2x text-primary"></i>
+                    </div></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- MODAL FOR ITEM THAT'S NOT COMPLETE -->
+            <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-title" style="margin-top:5px;"> <span style=" font-weight:600;">R&D Tax Credit </span> <span class="shift-right"> <i class="fas fa-download fa-2x text-gray-400 modal-box first-box" style="font-size: 0.69em; padding:6px; cursor:pointer;"> </i> <span class="modal-box" style="color:#f73e69; font-weight:500; font-family: 'Anton', sans-serif; font-size:0.615em;">! ! !</span> <span class="modal-box">~3m</span> <i class="fas fa-hotel fa-2x text-gray-400 modal-box" style="font-size: 0.69em; padding:6px;"> </i> </span> </div>
+                  <hr class="modal-hr">
+                  <div class="row">
+                    <div class="col-7 modal-left">
+                      <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                          <h6 class="m-0 font-weight-bold ">Summary </h6>
+                        </div>
+                        <div class="card-body">
+                          <p>Your company qualifies for a tax credit due to increased spending on research activities. We need you to fill in
+                            the following information in order to file the R&D tax credit along with your Federal Tax Return. </p>
+                        </div>
+                      </div>
+                      <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                          <h6 class="m-0 font-weight-bold ">To-Do </h6>
+                        </div>
+                        <div class="card-body">
+                          <table class="table table-hover">
+                            <thead>
+                              <tr>
+
+                                <th colspan="2" scope = "col">Category</th>
+                                <th colspan="1" scope = "col">Spending</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+
+                              <tr>
+                                <td colspan="2">Total R&D Wages Paid</td>
+                                <td style=""><input type="text" class="input intro-text input-theme" placeholder="Enter Wages Here" required></td>
+                              </tr>
+                              <tr>
+                                <td colspan="2">Total Cost of R&D Supplies</td>
+                                <td><input type="text" class="input intro-text input-theme" placeholder="Enter Costs Here" required></td>
+                              </tr>
+                              <tr>
+                                <td colspan="2">Total Rental/Lease Cost of Computers</td>
+                                <td><input type="text" class="input intro-text input-theme mandatoryfields" placeholder="Enter Costs Here" required></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div class="btn card-footer py-3 modal-submit">
+                          <h6 class="m-0 font-weight-bold"> Submit </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="topbar-divider d-none d-sm-block"></div>
+                    <div class="col-5">
+                      <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                          <h6 class="m-0 font-weight-bold ">Status </h6>
+                        </div>
+                        <div class="card-body">
+                          <table class="table table-borderless">
+                            <thead>
+                              <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Action</th>
+                                <th scope="col">Person</th>
+                                <th scope="col">Status</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td class="first-table-row">1.</td>
+                                <td>Fill out 6567</td>
+                                <td>Mo</td>
+                                <td><i class="fas fa-check fa-2x text-success"> </i> </td>
+                              </tr>
+                              <tr>
+                                <td class="first-table-row">2.</td>
+                                <td>Spending Information</td>
+                                <td>You</td>
+                                <td><i class="fas fa-minus fa-2x text-warning"> </i> </td>
+                              </tr>
+                              <tr>
+                                <td class="first-table-row">3.</td>
+                                <td>File Federal Tax Return</td>
+                                <td>Mo</td>
+                                <td><i class="fas fa-minus fa-2x text-warning"> </i></td>
+                              </tr>
+                              <tr>
+                                <td class="first-table-row">4.</td>
+                                <td>Send to IRS</td>
+                                <td>Mo</td>
+                                <td><i class="fas fa-minus fa-2x text-warning"> </i></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+
+          <hr>
+
+          <!-- woman of my dreams - I don't sleep so I can't find her -->
+
+
+
+          <!-- Corporate repository -->
+          <!-- <h3 style="font-family:'Montserrat', serif;">Corporate Repository </h3>
+
+
+            <div class="list-group  list-group-flush">
+              <button type="button" class="list-group-item list-group-item-action active">
+                Cras justo odio
+              </button>
+              <button type="button" class="list-group-item list-group-item-action">Dapibus ac facilisis in</button>
+              <button type="button" class="list-group-item list-group-item-action">Morbi leo risus</button>
+              <button type="button" class="list-group-item list-group-item-action">Porta ac consectetur ac</button>
+              <button type="button" class="list-group-item list-group-item-action" disabled>Vestibulum at eros</button>
+            </div>
+
+          <hr> -->
+
+
+
+        </div>
+        <!-- /.container-fluid -->
+
+      </div>
+      <!-- End of Main Content -->
+
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="vendor/chart.js/Chart.min.js"></script>
+  <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+  <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="js/demo/datatables-demo.js"></script>
+
+
+  <!-- Page level custom scripts -->
+  <script src="js/demo/chart-area-demo.js"></script>
+  <script src="js/demo/chart-pie-demo.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/demo/datatables-demo.js"></script>
+
+</body>
+
+</html>
