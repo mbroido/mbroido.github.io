@@ -1,2 +1,0 @@
-# Mo
-De MoDeMo
